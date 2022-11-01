@@ -12,16 +12,13 @@ import math
 
 def main():
 
-    # input
-    num = int(input("Enter any integer: "))
+    Num = int(input("Enter an number: "))
 
-    # process and output
-if (Num % 2) == 0:
-    print("{0} is Even".format(Num))
-else:
-    print("{0} is Odd".format(Num))
+    if (Num % 2) == 0:
+        print("{0} is an even number".format(Num))
+    else:
+        print("{0} is an odd number".format(Num))
 
-    print("\n\nDone.")
 
 if __name__ == "__main__":
     main()
